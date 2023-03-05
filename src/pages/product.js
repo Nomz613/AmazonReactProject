@@ -1,7 +1,7 @@
 import { IfFirebaseAuthedAnd } from '@react-firebase/auth';
 import { FirestoreCollection } from '@react-firebase/firestore';
 import React from 'react';
-import { useHistory, useParams } from 'react-router';
+import { useHistory, useParams } from 'react-router-dom';
 import { addCometChatGroup } from '../cometchat';
 import { withLayout } from '../wrappers/layout';
 const ProductPage = () => {
