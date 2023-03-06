@@ -40,7 +40,7 @@ export default function Navbar() {
                 <p className="text-gray-400 font-bold tracking-tight">
                   Deliver to
                 </p>
-                <p className="text-white font-bold">Portugal</p>
+                <p className="text-white font-bold">America</p>
               </div>
             </div>
           </div>

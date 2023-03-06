@@ -8,10 +8,7 @@ import { CometChat } from '@cometchat-pro/chat';
 import './index.css';
 // import './styles/tailwind.css';
 import App from './App';
-const appSetting = new CometChat.AppSettingsBuilder()
-  .subscribePresenceForAllUsers()
-  .setRegion(process.env.REACT_APP_COMETCHAT_REGION)
-  .build();
+const appSetting = new CometChat.AppSettingsBuilder().subscribePresenceForAllUsers().setRegion(process.env.REACT_APP_COMETCHAT_REGION).build();
 CometChat.init(process.env.REACT_APP_COMETCHAT_APP_ID, appSetting).then(
   () => {
     console.log('Initialization completed successfully');
@@ -25,6 +22,7 @@ CometChat.init(process.env.REACT_APP_COMETCHAT_APP_ID, appSetting).then(
       </React.StrictMode>,
       document.getElementById('root')
     );
+    console.log("completed successfully");
   },
   (error) => {
     console.log('Initialization failed with error:', error);
