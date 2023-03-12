@@ -1,0 +1,9 @@
+Purpose of Application:
+To run a responsive Amazon application where the buyer can chat with the seller.
+
+Project Description:
+A fullstack application using Firebase, Node, and Cometchat.
+
+How to Run:
+npm start
+
