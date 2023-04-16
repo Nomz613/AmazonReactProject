@@ -9,7 +9,7 @@ const CategoryPage = () => {
   return (
     <div className="grid grid-cols-3 md:grid-cols-9 py-4">
       <div className="col-span-1">
-        <SideFilter />
+        {/* <SideFilter /> */}
       </div>
       <div className="flex-grow w-full ml-4 col-span-2 md:col-span-8">
         <div className="text-black border-b border-gray-300 pb-2">
